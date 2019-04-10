@@ -9,11 +9,11 @@
 ## Spring Boot-based project
 
 ```xml
-		<dependency>
-			<groupId>com.viching.fastdfs</groupId>
-			<artifactId>spring-boot-starter-fastdfs</artifactId>
-			<version>0.1.0</version>
-		</dependency>
+<dependency>
+    <groupId>com.viching.fastdfs</groupId>
+    <artifactId>spring-boot-starter-fastdfs</artifactId>
+    <version>0.0.1</version>
+</dependency>
 ```
 
 ```yml
@@ -27,6 +27,6 @@ fdfs:
 ```
 
 ```java
-  @Autowired
-  private FastFileStorageClient storageClient;
+@Autowired
+private FastFileStorageClient storageClient;
 ```
