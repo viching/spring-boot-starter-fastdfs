@@ -1,10 +1,10 @@
-# FastDFS java Client
+# FastDFS Java Client Springboot Starter
 
 项目基于:
 > https://github.com/tobato/FastDFS_Client  
 > https://github.com/luhuiguo/fastdfs-client
 
-拆分成 **fastdfs-client** 和 **fastdfs-spring-boot-starter**
+整合 **fastdfs-client** 和 **fastdfs-spring-boot-starter**
 
 ## Spring Boot-based project
 
