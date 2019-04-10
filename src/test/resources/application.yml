@@ -1,0 +1,18 @@
+server:  
+  port: 8405
+  tomcat: 
+    max-threads: 800
+
+###logging
+logging:
+  file: fastdfs.log
+  level: 
+    com.viching.portal.fastdfs: debug
+    
+resumablePool: d:/uploadPool
+fdfs:
+  connect-timeout: 2000
+  so-timeout: 3000
+  tracker-list:
+    - 192.168.1.103:22122
+    - 192.168.1.103:22122
